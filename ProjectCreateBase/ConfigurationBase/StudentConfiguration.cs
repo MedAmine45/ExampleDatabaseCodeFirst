@@ -16,12 +16,8 @@ namespace ProjectCreateBase.ConfigurationBase
             builder.ToTable("Etudiant");
             builder.HasKey(s => s.Id);
             //builder.OwnsOne(s => s.Teacher);
-                
-            //builder
-            //   .Property(s => s.Datebirthday)
-            //   .IsRequired()
-            //   .HasColumnType("Date")
-            //   .HasDefaultValueSql("GetDate()");
+          
+   
         }
 
 
