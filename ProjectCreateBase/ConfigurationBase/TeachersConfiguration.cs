@@ -18,6 +18,7 @@ namespace ProjectCreateBase.ConfigurationBase
             builder.HasKey(e => e.Id);
             builder.HasMany<Student>(t => t.Students);
 
+            // le fichier de configuration de la table teacher 
 
         }
     }
